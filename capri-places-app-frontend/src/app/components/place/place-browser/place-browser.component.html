@@ -1,0 +1,37 @@
+<div *ngIf="loading" class="d-flex justify-content-center align-self-center">
+    <mat-spinner></mat-spinner>
+</div>
+<div class="page" *ngIf="!loading">
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="search">
+            <app-place-search [placeList]="filteredPlaceList" (placeNameOutput)="filterByText($event)"
+                (deleteOutput)="updateSearchValue($event)"></app-place-search>
+        </div>
+        <button *ngIf="showAddButton && (authService.authState$ | async)?.isAuthenticated" mat-fab color="primary"
+            (click)="loadAddForm()"><span class="add-button">+</span></button>
+    </div>
+
+    <div class="filter-chips d-flex justify-content-center">
+        <mat-chip-list aria-label="Dietary Requirements" class="p-2" [multiple]="true" [selectable]="true">
+            <mat-chip color="warn" [selected]="!filterActive" (click)="reloadPage()">All</mat-chip>
+            <mat-chip #c="matChip" (click)="toggleSelection(c)" color="accent" *ngFor="let category of categoryList"
+                [value]="category">{{category | enum | titlecase }}</mat-chip>
+        </mat-chip-list>
+    </div>
+    <div *ngIf="filteredPlaceList.length > 0 && !loading">
+        <p>
+            <app-place-list *ngIf="showList" [placeList]="filteredPlaceList"></app-place-list>
+        </p>
+    </div>
+    <div *ngIf="filteredPlaceList.length <= 0" class="center">
+        <h1> Ooops... We don't have any of those places yet... </h1>
+        <h2 *ngIf="(authService.authState$ | async)?.isAuthenticated" (click)="loadAddForm()"> <a> Why not add one for
+                us?? </a></h2>
+        <p>
+            <button *ngIf="showAddButton && (authService.authState$ | async)?.isAuthenticated" mat-fab color="primary"
+                (click)="loadAddForm()"><span class="add-button">+</span></button>
+        </p>
+
+        <img class="img-fluid" src="https://c.tenor.com/LjhaLjAdrQgAAAAC/winnie-the-pooh-hungry.gif" alt="">
+    </div>
+</div>

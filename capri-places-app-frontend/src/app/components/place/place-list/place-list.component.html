@@ -1,0 +1,11 @@
+<div class="d-flex flex-wrap justify-content-center">
+    <div *ngFor="let place of placeList  | paginate: {
+                    itemsPerPage: 10,
+                    currentPage: page,
+                    totalItems: 0  }" class="p-2">
+        <app-place-list-item [place]="place" [authorId]="place.authorId"></app-place-list-item>
+    </div>
+</div>
+<p class="d-flex justify-content-center">
+    <pagination-controls class="my-pagination" (pageChange)="handlePageChange($event)"></pagination-controls>
+</p>

@@ -1,0 +1,16 @@
+h1 {
+  font-size: large;
+  font-family: 'Abril Fatface',
+    cursive;
+  font-size: 5vh;
+}
+
+.text-box {
+    margin: 1em;
+}
+
+.accordion {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

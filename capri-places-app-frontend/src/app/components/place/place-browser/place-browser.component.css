@@ -1,0 +1,29 @@
+.filter-chips {
+    padding: 5px;
+}
+
+.mat-chip:hover {
+    cursor: pointer;
+}
+
+.page {
+    min-height: 900px;
+}
+
+.search {
+    width: 80%;
+    padding-top: 1%;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.add-button {
+    font-size: 25px;
+}
+
+.center {
+    text-align: center;
+}
+

@@ -1,0 +1,29 @@
+    <mat-card *ngIf="!loading">
+        <mat-card-title-group class="d-flex justify-content-around">
+            <mat-card-title class="title">{{user.username}}</mat-card-title>
+            <mat-card-subtitle>
+                <div class="user-info">
+                    <br>
+                    <div *ngIf="userVerified">
+                        <p><strong>email: </strong> {{user.email}} </p>
+                    </div>
+                    <p><strong>name: </strong> {{user.name}} </p>
+                    <p><strong>location: </strong>{{user.location}} mins</p>
+                    <p><strong>Bio: </strong> {{user.bio}} mins</p>
+                </div>
+            </mat-card-subtitle>
+            <div class="image" *ngIf="user.pictureUrl != null">
+                <img class="img-fluid rounded" src="{{user.pictureUrl}}">
+            </div>
+            <div class="image" *ngIf="user.pictureUrl == null">
+                <img class="img-fluid rounded" src="../../../../assets/images/Profile_avatar_placeholder_large.png">
+            </div>
+        </mat-card-title-group>
+        <div *ngIf="userVerified">
+            <button mat-raised-button color="primary" (click)="loadUserForm()">Edit</button>
+        </div>
+    </mat-card>
+
+    <div *ngIf="loading" class="d-flex justify-content-center align-self-center">
+        <mat-spinner></mat-spinner>
+    </div>

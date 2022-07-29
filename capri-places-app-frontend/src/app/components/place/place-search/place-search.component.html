@@ -1,0 +1,41 @@
+<div *ngIf="loading" class="d-flex justify-content-center align-self-center">
+    <mat-spinner></mat-spinner>
+</div>
+
+<div *ngIf="!loading">
+    <div *ngIf="!external">
+        <form [formGroup]="placeForm" (ngSubmit)="sendPlaceName()" class="search">
+            <mat-form-field class="search" appearance="outline">
+                <mat-label>Search Places</mat-label>
+                <input type="text" matInput formControlName="placeSearch" [matAutocomplete]="auto"
+                    (keyDown.backspace)="delete()" (keyDown.delete)="delete()">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let place of filteredPlaceList | async" [value]="place.name"
+                        (click)="sendClickedPlaceName()">
+                        {{place.name}}
+                    </mat-option>
+                    <mat-option *ngIf="(filteredPlaceList | async)?.length == 0"> Sorry we have no places matching your
+                        search</mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
+    </div>
+
+    <div *ngIf="external">
+        <form [formGroup]="placeForm" (ngSubmit)="sendPlaceId()" class="search">
+            <mat-form-field class="search" appearance="outline">
+                <mat-label>Search Places</mat-label>
+                <input type="text" matInput formControlName="placeSearch" [matAutocomplete]="auto"
+                    (keyDown.backspace)="delete()" (keyDown.delete)="delete()" (keyDown.enter)="sendPlaceId()">
+                <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn" autoActiveFirstOption>
+                    <mat-option *ngFor="let place of filteredPlaceList | async" [value]="place" (click)="sendPlaceId()"
+                        (keyDown.enter)="sendPlaceId()">
+                        {{place.name}}
+                    </mat-option>
+                    <mat-option *ngIf="(filteredPlaceList | async)?.length == 0"> Sorry we have no places matching your
+                        search</mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
+    </div>
+</div>

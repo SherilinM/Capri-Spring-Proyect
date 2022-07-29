@@ -1,0 +1,12 @@
+    <div *ngIf="rating > 0 || !isReadOnly && !loading">
+        <ngb-rating [(rate)]="rating" [max]="5" [readonly]="isReadOnly" (click)="submitRating()">
+            <ng-template let-fill="fill" let-index="index">
+                <span class="star" [class.filled]="fill === 100">&#9733;</span>
+            </ng-template>
+        </ngb-rating>
+            <span class="rating-text"> {{rating | number: '1.0-1'}}/5 </span>
+    </div>
+
+    <div *ngIf="(rating == 0 || rating == null) && isReadOnly">
+        <span class="rating-text">Not yet rated</span>
+    </div>

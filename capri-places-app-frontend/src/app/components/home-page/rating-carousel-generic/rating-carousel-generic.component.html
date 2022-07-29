@@ -1,0 +1,15 @@
+<div *ngIf="loading && hasFavourites" class="d-flex justify-content-center align-self-center">
+    <mat-spinner></mat-spinner>
+</div>
+
+<div *ngIf="!loading">
+
+    <mat-card>
+        <mat-card-title class="pb-4">Top rated places</mat-card-title>
+        <mat-card-content>
+            <div *ngIf="placeList.length > 0">
+                <app-place-list [placeList]="placeList"></app-place-list>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

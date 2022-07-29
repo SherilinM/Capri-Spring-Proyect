@@ -1,0 +1,26 @@
+<div class="page" *ngIf="!loadingPlace">
+    <div class="d-flex">
+        <div>
+            <button mat-raised-button color="secondary" (click)="back()">Back</button>
+        </div>
+        <div *ngIf="userVerified" class="edit">
+            <button ml-auto mat-raised-button color="primary" type="submit" (click)="loadAddForm()">Edit Place</button>
+            <button mat-raised-button color="warn" (click)="confirm()">Delete Place</button>
+        </div>
+    </div>
+    <div class="title-card">
+        <app-place-card [place]="placeDTO" [user]="user"></app-place-card>
+    </div>
+    <div *ngIf="userVerified" class="d-flex justify-content-end">
+    </div>
+    <div class="container px-3 d-flex justify-content-center flex-column">
+        <div class="p-5">
+            <h3>View in google maps</h3>
+            <img class="img-fluid rounded"
+                src="https://www.tintasytonercompatibles.es/blog/wp-content/uploads/2022/04/Como-imprimir-mapa-Google-Maps-grande.jpg">
+        </div>
+    </div>
+    <div class="reviews">
+        <app-review-list [place]="placeDTO" [loggedInEmail]="loggedInEmail" [user]="user"></app-review-list>
+    </div>
+</div>

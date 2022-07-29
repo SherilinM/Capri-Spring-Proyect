@@ -1,0 +1,9 @@
+.page {
+    min-height: 75em;
+    background-color: #23252a;
+    color: white;
+}
+
+.component {
+    margin: 1em;
+}

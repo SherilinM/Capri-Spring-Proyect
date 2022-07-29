@@ -1,0 +1,30 @@
+<mat-card>
+    <div *ngIf="!editing">
+        <div class="d-flex title">
+            {{review.title}} <br>
+        </div>
+        <h3>{{review.content}}</h3>
+        <p><em> by: {{review.name}} </em></p>
+
+        <div *ngIf="!ownReview">
+            <app-star-rating [placeId]="place.id"></app-star-rating>
+        </div>
+        <div *ngIf="ownReview">
+            <app-star-rating [isReadOnly]="false" [rating]="review.rating" [placeId]="place.id"></app-star-rating>
+        </div>
+
+        <div *ngIf="ownReview">
+            <div class="d-flex">
+                <div class="p-2 mr-auto">
+                    <button ml-auto mat-raised-button color="primary" (click)="loadForm()">Edit</button>
+                </div>
+                <div class="p-2 ml-auto">
+                    <button ml-auto mat-raised-button color="warn" (click)="confirm()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="editing">
+        <app-review-form [review]="review" [place]="place"></app-review-form>
+    </div>
+</mat-card>

@@ -1,0 +1,37 @@
+<mat-card>
+    <div>
+        <h1 class="title">{{formTitle}}</h1>
+        <p>
+            Your Rating:
+            <app-star-rating [isReadOnly]="false" [placeId]="place.id" (ratingOutput)="setRatingId($event)">
+            </app-star-rating>
+        </p>
+
+        <form (ngSubmit)="onSubmit()" [formGroup]="reviewForm">
+
+            <mat-form-field appearance="fill">
+                <mat-label>Title</mat-label>
+                <input type="text" matInput formControlName="title" placeholder="title...">
+                <mat-error *ngIf="(title.invalid)  && title.touched">
+                    Please enter a valid title.
+                </mat-error>
+            </mat-form-field>
+
+            <p>
+                <mat-form-field appearance="fill">
+                    <mat-label>Content</mat-label>
+                    <textarea type="text" rows="5" matInput formControlName="content"
+                        placeholder="content..."></textarea>
+                    <mat-error *ngIf="(content.invalid)  && content.touched">
+                        Please enter a valid content.
+                    </mat-error>
+                </mat-form-field>
+            </p>
+
+            <button mat-raised-button color="primary"
+                [disabled]="reviewForm.invalid || ratingId == null || formDisabled" type="submit">{{addOrEditButton}}
+                Review</button>
+        </form>
+    </div>
+
+</mat-card>

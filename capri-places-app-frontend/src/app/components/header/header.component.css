@@ -1,0 +1,23 @@
+.title {
+  font-size: x-large;
+  font-family: 'Abril Fatface',
+  cursive;
+  font-style: italic;
+}
+
+.title-small {
+  font-size: 1.75vh;
+  font-family: 'Abril Fatface',
+    cursive;
+    font-style: italic;
+}
+
+.right-spacer {
+  flex: 1 1 auto;
+}
+
+.small-spacer {
+  display: flex;
+  margin: 5px;
+}
+

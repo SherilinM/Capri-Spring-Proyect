@@ -1,0 +1,10 @@
+.title {
+  font-family: 'Abril Fatface',
+    cursive;
+  text-align: center;
+}
+
+.mat-form-field {
+  margin: 5px;
+  width: 100%;
+}

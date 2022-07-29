@@ -1,0 +1,24 @@
+.mat-form-field {
+  margin: 5px;
+  width: 100%;
+}
+
+
+button {
+  margin: 5px;
+}
+
+.form-box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: 'Abril Fatface',
+    cursive;
+    text-align: center;
+}
+
+.mat-card {
+  margin-top: 1em;
+}

@@ -1,0 +1,10 @@
+<mat-card class="card-dark">
+    <div class="search-bar">
+        <app-place-search [external]="true" (placeIdOutput)="loadPlacePage($event)"></app-place-search>
+    </div>
+    <div class="d-flex justify-content-center advanced-search">
+        <a href="/places">
+            <h4>Advanced Search</h4>
+        </a>
+    </div>
+</mat-card>

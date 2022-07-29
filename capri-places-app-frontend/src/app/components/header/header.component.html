@@ -1,0 +1,17 @@
+<mat-toolbar color="secondary">
+    <button mat-icon-button (click)="menuClicked()">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <button mat-button [routerLink]="['/']">
+        <mat-icon>home</mat-icon>
+    </button>
+    <button mat-button [routerLink]="['/places/']">
+        <span mat-button class="title">Ca-pri</span>
+    </button>
+    <span class="right-spacer"></span>
+    <button mat-button *ngIf="!(authService.authState$ | async)?.isAuthenticated"
+        (click)="oktaAuth.signInWithRedirect()"><span class="title-small">Login</span></button>
+    <!-- <button mat-button *ngIf="(authService.authState$ | async)?.isAuthenticated"[routerLink]="['/profile/']"> <span class="title-small">My Profile</span></button> -->
+    <button mat-button *ngIf="(authService.authState$ | async)?.isAuthenticated" (click)="oktaAuth.signOut()"><span
+            class="title-small">Logout</span></button>
+</mat-toolbar>

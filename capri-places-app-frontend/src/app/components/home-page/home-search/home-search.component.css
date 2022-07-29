@@ -1,0 +1,21 @@
+.search-section {
+    background-image: url('../../../../assets/images/search-background.jpg');
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-size: cover;
+
+}
+
+.search-bar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 1em;
+    opacity: 1;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+}

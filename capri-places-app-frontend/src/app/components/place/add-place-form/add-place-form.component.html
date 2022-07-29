@@ -1,0 +1,58 @@
+<mat-card class="page" *ngIf="!loading">
+    <div>
+        <button mat-raised-button color="primary" (click)="back()">Back</button>
+    </div>
+    <h1 class="title">{{title}}</h1>
+
+    <div class="d-flex justify-content-center flex-wrap">
+
+        <form ngSubmit="onSubmit()" [formGroup]="placeForm">
+            <mat-form-field appearance="fill">
+                <mat-label>Place Name</mat-label>
+                <input matInput formControlName="name" placeholder="place name...">
+                <mat-error *ngIf="(name.invalid || name.hasError('invalidName')) && name.touched">
+                    Please enter a valid place name.
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Select Category</mat-label>
+                <mat-select formControlName="category">
+                    <mat-option *ngFor="let category of categoryList" [value]="category">{{category | enum | titlecase}}
+                    </mat-option>
+                </mat-select>
+                <mat-error *ngIf="category.invalid && category.touched">
+                    Please enter a category
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Place Location</mat-label>
+                <input matInput formControlName="location" placeholder="place location...">
+                <mat-error *ngIf="(name.invalid || name.hasError('invalidName')) && name.touched">
+                    Please enter a valid place location.
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Place Location</mat-label>
+                <input matInput formControlName="description" placeholder="Enter description...">
+                <mat-error *ngIf="(name.invalid || name.hasError('invalidName')) && name.touched">
+                    Please enter a valid place description.
+                </mat-error>
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Image URL</mat-label>
+                <input type="text" matInput formControlName="imageUrl" placeholder="imageUrl...">
+                <mat-error *ngIf="(imageUrl.invalid || imageUrl.hasError('invalidUrl')) && imageUrl.touched">
+                    Please enter a valid picture Url
+                </mat-error>
+            </mat-form-field>
+            <br>
+            <button mat-raised-button color="primary" [disabled]="placeForm.invalid || formDisabled" type="submit"
+                (click)="onSubmit()">{{addFormButton}} Place</button>
+        </form>
+    </div>
+</mat-card>
+
+<div *ngIf="loading" class="d-flex justify-content-center align-self-center">
+    <mat-spinner></mat-spinner>
+</div>

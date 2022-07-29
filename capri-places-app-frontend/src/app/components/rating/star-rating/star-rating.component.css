@@ -1,0 +1,13 @@
+.star {
+  font-size: 1.5rem;
+  color: #bd9ff0;
+}
+
+.filled {
+  color: #673ab7;
+}
+
+.rating-text {
+  color: #673ab7;
+  font-style: italic;
+}

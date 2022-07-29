@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-5">
+        <img class="img-fluid rounded" src={{place.imageUrl}}>
+    </div>
+    <div class="col-md-7">
+        <div class="h2"> {{place.name}} </div>
+        <mat-card-subtitle>
+            <a [routerLink]="['/users/', user.id]" class="author"> owner: {{user.name}} </a>
+            <app-star-rating [placeId]="place.id"></app-star-rating><br>
+            <p>{{place.location}}</p>
+        </mat-card-subtitle>
+        <p style="word-wrap: break-word;">{{place.description}}</p>
+        <div class="place-info">
+            <mat-chip-list aria-label="Dietary Requirements">
+                <mat-chip color="accent" selected>{{place.category | enum | titlecase}}</mat-chip>
+            </mat-chip-list>
+        </div>
+        <div *ngIf="(authService.authState$ | async)?.isAuthenticated">
+            <span class="rating-text"> Your rating <app-star-rating [isReadOnly]="false" [rating]="usersRating"
+                    [placeId]="place.id"></app-star-rating></span>
+        </div>
+    </div>
+    <app-favourites-toggle [placeId]="place.id"></app-favourites-toggle>
+</div>

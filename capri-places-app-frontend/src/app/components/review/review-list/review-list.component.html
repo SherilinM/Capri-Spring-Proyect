@@ -1,0 +1,19 @@
+<mat-card>
+    <div class="d-flex">
+        <div class="mr-auto p-2">
+            <h1>Reviews</h1>
+        </div>
+    </div>
+    <div *ngFor="let review of reviewList | paginate: {
+                    itemsPerPage: 5,
+                    currentPage: page,
+                    totalItems: 0  }">
+        <app-review-list-item [review]="review" [place]="place" [loggedInEmail]="loggedInEmail"></app-review-list-item>
+    </div>
+    <p class="d-flex justify-content-center">
+        <pagination-controls class="my-pagination" (pageChange)="handlePageChange($event)"></pagination-controls>
+    </p>
+    <div *ngIf="!previouslyReviewed && loggedInEmail != null">
+        <app-review-form [place]="place"></app-review-form>
+    </div>
+</mat-card>

@@ -1,0 +1,12 @@
+<div class="page" *ngIf="!loading">
+    <button mat-raised-button color="primary" (click)="back()">Back</button>
+    <div class="card">
+        <app-user-details [user]="user"></app-user-details>
+    </div>
+    <div class="card">
+        <app-user-favourites [userId]="user.id"></app-user-favourites>
+    </div>
+    <div class="card">
+        <app-user-own-place [userId]="user.id"></app-user-own-place>
+    </div>
+</div>

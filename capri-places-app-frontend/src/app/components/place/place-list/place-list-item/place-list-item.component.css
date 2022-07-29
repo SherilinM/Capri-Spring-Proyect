@@ -1,0 +1,16 @@
+.small-image {
+    width: 200px;
+    height: auto;
+}
+
+.title {
+    margin-bottom: 0px;
+    margin-right: 1px;
+}
+
+.mat-card {
+    margin: 2px;
+    min-width: 175;
+    max-width: 400px;
+}
+

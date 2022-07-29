@@ -1,0 +1,20 @@
+.image {
+  width: 300px;
+  height: auto;
+}
+
+.place-info {
+  size: 14px;
+  color: black;
+}
+
+
+.rating-text {
+  color: #673ab7;
+  font-style: italic;
+}
+
+.author {
+  color: #673ab7;
+  font-style: italic;
+}

@@ -1,0 +1,19 @@
+<div *ngIf="!loading">
+    <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Favourite Places
+                </mat-panel-title>
+                <mat-panel-description>
+                    <span *ngIf="placeList.length == 0">
+                        No favourited places
+                    </span>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div *ngIf="placeList.length > 0">
+                <app-place-list [placeList]="placeList"></app-place-list>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

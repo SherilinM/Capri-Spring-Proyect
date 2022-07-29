@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~mdb-ui-kit/css/mdb.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans:ital@1&display=swap');
+
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans';
+    background-color: #23252a;
+}
+
+.page {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5%;
+    max-width: 1920px;
+}
+
+.default-hover:hover {
+    background-color: #f3e0ff;
+    cursor: pointer;
+}

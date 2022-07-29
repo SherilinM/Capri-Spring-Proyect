@@ -1,0 +1,15 @@
+<div class="page">
+    <div class="component">
+        <app-home-search></app-home-search>
+    </div>
+    <div class="component">
+        <app-rating-carousel-generic [ourOrYour]="'Our'" [left]="false"></app-rating-carousel-generic>
+    </div>
+    <div class="component">
+        <app-favourites-carousel></app-favourites-carousel>
+    </div>
+    <div *ngIf="loggedIn && !loadingUser" class="component">
+        <app-rating-carousel-generic [userId]="user.id" [userList]="true" [ourOrYour]="'Your'" [left]="false">
+        </app-rating-carousel-generic>
+    </div>
+</div>

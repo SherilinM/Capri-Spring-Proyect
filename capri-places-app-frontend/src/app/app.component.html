@@ -1,0 +1,11 @@
+<mat-sidenav-container class="main-page" autosize>
+    <mat-sidenav class="drawer" #drawer mode="over">
+        <app-drawer (closeDrawer)="drawer.toggle()"></app-drawer>
+    </mat-sidenav>
+
+    <div>
+        <app-header (toggleMenu)="drawer.toggle()"></app-header>
+        <router-outlet></router-outlet>
+    </div>
+
+</mat-sidenav-container>

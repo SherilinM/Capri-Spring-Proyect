@@ -1,0 +1,12 @@
+<div *ngIf="loading" class="d-flex justify-content-center align-self-center">
+    <mat-spinner></mat-spinner>
+</div>
+
+<mat-card *ngIf="!loading">
+    <mat-card-title>
+        Top favourited places
+    </mat-card-title>
+    <mat-card-content>
+        <app-place-accordion [placeList]="placeList"></app-place-accordion>
+    </mat-card-content>
+</mat-card>

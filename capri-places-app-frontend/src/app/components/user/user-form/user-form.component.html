@@ -1,0 +1,54 @@
+<mat-card>
+
+    <h1 class="title">{{title}}</h1>
+    
+    <div class="form-box">
+
+    <form (ngSubmit)="onSubmit()" [formGroup]="userForm">
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input type="text" matInput formControlName="name" placeholder="name...">
+            <mat-error *ngIf="(name.invalid || name.hasError('invalidName'))  && name.touched">
+                Please enter a valid name.
+            </mat-error>
+        </mat-form-field>
+        <p>
+        <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input type="text" matInput formControlName="username" placeholder="Username...">
+            <mat-error *ngIf="username.invalid && username.touched">
+                Please enter a valid username
+            </mat-error>
+        </mat-form-field>
+        </p>
+        <p>
+        <mat-form-field appearance="fill">
+            <mat-label>location</mat-label>
+            <input type="text" matInput formControlName="location" placeholder="location...">
+            <mat-error *ngIf="location.invalid && location.touched">
+                Please enter a valid location
+            </mat-error>
+        </mat-form-field>
+        </p>
+        <p>
+        <mat-form-field appearance="fill">
+            <mat-label>bio</mat-label>
+            <textarea rows="5" type="text" matInput formControlName="bio" placeholder="bio..."></textarea>
+            <mat-error *ngIf="bio.invalid && bio.touched">
+                Please enter a valid bio
+            </mat-error>
+        </mat-form-field>
+        </p>
+        <p>
+        <mat-form-field appearance="fill">
+            <mat-label>pictureUrl</mat-label>
+            <input type="text" matInput formControlName="pictureUrl" placeholder="pictureUrl...">
+            <mat-error *ngIf="(pictureUrl.invalid || pictureUrl.hasError('invalidUrl')) && pictureUrl.touched ">
+                Please enter a valid pictureUrl
+            </mat-error>
+        </mat-form-field>
+        </p>
+        <p><button [disabled]="userForm.invalid || formDisabled" mat-raised-button color="primary" type="submit">{{addOrEditButton}}</button></p>
+    </form>
+    </div>
+</mat-card>

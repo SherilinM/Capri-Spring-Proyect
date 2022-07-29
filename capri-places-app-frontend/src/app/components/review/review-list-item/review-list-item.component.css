@@ -1,0 +1,18 @@
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+.mat-divider {
+    margin: 1em;
+}
+
+.mat-card {
+    margin: 1em;
+}

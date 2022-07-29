@@ -1,0 +1,19 @@
+<div>
+    <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Created Places
+                </mat-panel-title>
+                <mat-panel-description>
+                    <span *ngIf="loading || placeList.length == 0">
+                        No places created by user
+                    </span>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div *ngIf="!loading">
+                <app-place-list [placeList]="placeList"></app-place-list>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

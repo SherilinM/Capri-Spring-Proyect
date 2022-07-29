@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb7eff44-c931-420e-9d59-46497b72476e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_commons_lang_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_commons_okta_config_check_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_boot_starter_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_sdk_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_okta_spring_okta_spring_security_oauth2_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capri-places-app-frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/PlaceServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/controllers/EnumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/controllers/PlaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/controllers/impl/EnumControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/controllers/impl/PlaceControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/dao/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/dto/CreatePlaceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/dto/PlaceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/enums/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/repositories/PlaceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/services/PlaceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/services/impl/PlaceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/utils/SampleDataConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/utils/SampleDataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/java/com/ironhack/placesservice/utils/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/test/java/com/ironhack/placesservice/PlaceServiceImplApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/test/java/com/ironhack/placesservice/controllers/impl/EnumControllerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/test/java/com/ironhack/placesservice/controllers/impl/PlaceControllerImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/place-service/src/test/java/com/ironhack/placesservice/services/impl/PlaceServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/proxies/PlaceServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/final-project-recipe-full-stack-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/capri-project-place-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/api-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/api-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/ironhack/apigateway/GatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ironhack/apigateway/GatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/ironhack/apigateway/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ironhack/apigateway/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/ironhack/apigateway/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ironhack/apigateway/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/controller/FavouriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/controller/FavouriteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/controller/impl/FavouriteControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/controller/impl/FavouriteControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dao/Favourite.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dao/Favourite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/FavRecipeListDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/FavPlaceListDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/FavouriteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/FavouriteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/FavouriteRecipeCountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/FavouritePlaceCountDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/RecipeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/dto/PlaceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/enums/Cuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/enums/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/enums/Diet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/enums/Measurement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/proxy/RecipeServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/proxy/PlaceServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/repositories/FavouriteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/repositories/FavouriteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/services/FavouritesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/services/FavouritesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/services/impl/FavouritesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/java/com/ironhack/favouritesservice/services/impl/FavouritesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/test/java/com/ironhack/favouritesservice/controller/impl/FavouriteControllerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/test/java/com/ironhack/favouritesservice/controller/impl/FavouriteControllerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favourites-service/src/test/java/com/ironhack/favouritesservice/services/impl/FavouritesServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/favourites-service/src/test/java/com/ironhack/favouritesservice/services/impl/FavouritesServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/controller/RatingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/controller/impl/RatingControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/controller/impl/RatingControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dao/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dao/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dto/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dto/RatingDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dto/RatingDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dto/RecipeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dto/PlaceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dto/TopRecipeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/dto/TopPlaceDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/enums/Cuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/enums/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/enums/Diet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/enums/Measurement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/proxies/RecipeServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/repositories/RatingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/repositories/RatingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/services/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/services/RatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/services/impl/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/java/com/ironhack/ratingservice/services/impl/RatingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rating-service/src/test/java/com/ironhack/ratingservice/services/impl/RatingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rating-service/src/test/java/com/ironhack/ratingservice/services/impl/RatingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/.browserslistrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/angular-material.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/angular-material.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/dialogs/confirm/confirm.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/dialogs/confirm/confirm.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/dialogs/confirm/confirm.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/dialogs/confirm/confirm.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/dialogs/confirm/confirm.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/dialogs/confirm/confirm.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/dialogs/confirm/confirm.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/dialogs/confirm/confirm.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/drawer/drawer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/drawer/drawer.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/drawer/drawer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/drawer/drawer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/drawer/drawer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/drawer/drawer.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/drawer/drawer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/drawer/drawer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/footer/footer.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/footer/footer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/footer/footer.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/header/header.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/favourites-carousel/favourites-carousel.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-page.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-page.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-page.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-search/home-search.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-search/home-search.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-search/home-search.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-search/home-search.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-search/home-search.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-search/home-search.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/home-search/home-search.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/home-search/home-search.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/home-page/rating-carousel-generic/rating-carousel-generic.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/rating/star-rating/star-rating.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/rating/star-rating/star-rating.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/rating/star-rating/star-rating.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/rating/star-rating/star-rating.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/rating/star-rating/star-rating.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/rating/star-rating/star-rating.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/rating/star-rating/star-rating.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/rating/star-rating/star-rating.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/add-recipe-form/add-recipe-form.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/add-recipe-form/add-recipe-form.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/add-recipe-form/add-recipe-form.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/add-recipe-form/add-recipe-form.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/favourites-toggle/favourites-toggle.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/favourites-toggle/favourites-toggle.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/favourites-toggle/favourites-toggle.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/favourites-toggle/favourites-toggle.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-accordion/recipe-accordion.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-accordion/recipe-accordion.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-accordion/recipe-accordion.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-accordion/recipe-accordion.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-browser/recipe-browser.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-browser/recipe-browser.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-browser/recipe-browser.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-browser/recipe-browser.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list-item/recipe-list-item.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list-item/recipe-list-item.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list-item/recipe-list-item.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list-item/recipe-list-item.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-list/recipe-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-card/recipe-card.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-card/recipe-card.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-card/recipe-card.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-card/recipe-card.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-instructions/recipe-instructions.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-instructions/recipe-instructions.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-instructions/recipe-instructions.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-instructions/recipe-instructions.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-page.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-page/recipe-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-search/recipe-search.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-search/recipe-search.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-search/recipe-search.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/recipe/recipe-search/recipe-search.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-form/review-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-form/review-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-form/review-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-form/review-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-form/review-form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-form/review-form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-form/review-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-form/review-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list-item/review-list-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list-item/review-list-item.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list-item/review-list-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list-item/review-list-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list-item/review-list-item.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list-item/review-list-item.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list-item/review-list-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list-item/review-list-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list/review-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list/review-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list/review-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list/review-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list/review-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list/review-list.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/review/review-list/review-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/review/review-list/review-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/my-profile/my-profile.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/my-profile/my-profile.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/my-profile/my-profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/my-profile/my-profile.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/my-profile/my-profile.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/my-profile/my-profile.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/my-profile/my-profile.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/my-profile/my-profile.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-details/user-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-details/user-details.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-details/user-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-details/user-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-details/user-details.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-details/user-details.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-details/user-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-details/user-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-favourites/user-favourites.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-favourites/user-favourites.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-favourites/user-favourites.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-favourites/user-favourites.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-favourites/user-favourites.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-favourites/user-favourites.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-favourites/user-favourites.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-favourites/user-favourites.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-form/user-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-form/user-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-form/user-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-form/user-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-form/user-form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-form/user-form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-form/user-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-form/user-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-own-recipe/user-own-recipe.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-own-recipe/user-own-recipe.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-own-recipe/user-own-recipe.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-own-recipe/user-own-recipe.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-page/user-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-page/user-page.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-page/user-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-page/user-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-page/user-page.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-page/user-page.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/components/user/user-page/user-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/components/user/user-page/user-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/custom-pipes/enum-pipe.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/custom-pipes/enum-pipe.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/models/favourites-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/models/favourites-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/models/ingredient.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/models/ingredient.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/models/rating-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/models/rating-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/models/recipe.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/models/review-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/models/review-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/models/user-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/models/user-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/enum.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/enum.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/enum.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/enum.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/favourites.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/favourites.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/favourites.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/favourites.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/rating.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/rating.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/rating.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/rating.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/recipe.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/recipe.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/review.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/review.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/review.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/review.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/user.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/user.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/shared/okta/auth.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/shared/okta/auth.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/app/validators/custom-validators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/app/validators/custom-validators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/GitHub-Mark-32px.png" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/GitHub-Mark-32px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/Profile_avatar_placeholder_large.png" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/Profile_avatar_placeholder_large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/The Recipe Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/bbq-ribs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/bbq-ribs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/beef-stew.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/beef-stew.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/bruschette.png" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/bruschette.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/cheeseburger.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/cheeseburger.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/chilli-chicken.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/chilli-chicken.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/fish-chips.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/fish-chips.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/jerk-lamb.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/jerk-lamb.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/katsu-curry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/katsu-curry.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/kebab.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/kebab.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/logo_long.png" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/logo_long.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/pasta-beans.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/pasta-beans.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/pizza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/pizza.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/sausage-chips.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/sausage-chips.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/seafood-paella.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/seafood-paella.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/search-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/search-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/assets/images/temp-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/assets/images/temp-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-app-frontend/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/capri-places-app-frontend/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/RecipeServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/controllers/EnumController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/controllers/RecipeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/controllers/impl/EnumControllerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/controllers/impl/RecipeControllerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/dao/Ingredient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/dao/Recipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/dto/CreateRecipeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/dto/RecipeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/enums/Cuisine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/enums/Diet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/enums/Measurement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/repositories/RecipeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/services/RecipeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/services/impl/RecipeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/utils/SampleDataConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/utils/SampleDataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/java/com/ironhack/recipeservice/utils/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/test/java/com/ironhack/recipeservice/RecipeServiceImplApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/test/java/com/ironhack/recipeservice/controllers/impl/EnumControllerImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/test/java/com/ironhack/recipeservice/controllers/impl/RecipeControllerImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-service/src/test/java/com/ironhack/recipeservice/services/impl/RecipeServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/controller/impl/ReviewControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/controller/impl/ReviewControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/dao/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/dao/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/dto/ReviewDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/dto/ReviewDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/repositories/ReviewRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/repositories/ReviewRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/service/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/service/ReviewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/service/impl/ReviewServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/ironhack/reviewservice/service/impl/ReviewServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/test/java/com/ironhack/reviewservice/controller/impl/ReviewControllerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/test/java/com/ironhack/reviewservice/controller/impl/ReviewControllerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/test/java/com/ironhack/reviewservice/service/impl/ReviewServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/test/java/com/ironhack/reviewservice/service/impl/ReviewServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ironhack/userservice/enums/Cuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/ironhack/userservice/enums/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ironhack/userservice/enums/Diet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/ironhack/userservice/enums/Measurement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CZGF9Gp5edGapHIvNX9DSU0Gxd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/sheri/OneDrive/Documentos/capri_test/nazerwow-final-project-recipe-app",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ReviewServiceApplication">
+    <configuration name="FavouritesServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ironhack.favouritesservice.FavouritesServiceApplication" />
+      <module name="favourites-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ironhack.favouritesservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ironhack.reviewservice.ReviewServiceApplication" />
+      <module name="review-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ironhack.reviewservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in rating-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rating-service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rating-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ironhack.ratingservice.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ironhack.ratingservice.services.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ironhack.ratingservice.services.impl.RatingServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingServiceImplTest.findByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rating-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ironhack.ratingservice.services.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ironhack.ratingservice.services.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ironhack.ratingservice.services.impl.RatingServiceImplTest" />
+      <option name="METHOD_NAME" value="findByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="capri-project-place-app" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="capri-project-place-app" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FavouritesServiceApplication" />
+        <item itemvalue="Application.ReviewServiceApplication" />
+        <item itemvalue="JUnit.RatingServiceImplTest.findByUserId" />
+        <item itemvalue="JUnit.All in rating-service" />
+        <item itemvalue="JUnit.RatingServiceImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb7eff44-c931-420e-9d59-46497b72476e" name="Changes" comment="" />
+      <created>1659002589572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659002589572</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
